@@ -1,7 +1,7 @@
 ## 🏥 Medical Insurance Cost Analysis (Python)
   
 
-
+<br><br>
 
 **📖 Project Overview**
 
@@ -12,8 +12,7 @@ and to communicate these insights clearly through visualizations and analysis.
 By diving into this dataset, I practiced end-to-end data analytics skills — from cleaning and wrangling
 to statistical exploration and storytelling with data.
 
-
-
+<br><br>
 
 **🎯 Objective**
 
@@ -22,20 +21,20 @@ To analyze health insurance data and answer the question:
 
 
 
-
+<br><br>
 **📁 Dataset**
 
 File: insurance.csv
 
 
-
+<br><br>
 
 **Domain: Healthcare Analytics**
 
 Records: 1,337 entries, 7 features
 
 
-
+<br><br>
 
 **Key Columns:**
 
@@ -55,7 +54,7 @@ charges: Final medical insurance cost (target variable)
 
 
 
-
+<br><br>
 **🔍 Steps Performed**
 
 1️⃣ Data Cleaning & Preparation
@@ -80,7 +79,7 @@ Scatterplots → charges vs age, charges vs BMI
 Interpreted results and explained why patterns matter for insurers and healthcare providers.
 
 
-
+<br><br>
 
 **📊 Key Insights**
 
@@ -97,7 +96,7 @@ Interpreted results and explained why patterns matter for insurers and healthcar
 📈 Charges distribution is right-skewed, meaning a small number of policyholders face very high medical costs.
 
 
-
+<br><br>
 
 **🛠 Tools & Technologies**
 
@@ -108,7 +107,7 @@ Pandas & NumPy → data wrangling and exploration
 Seaborn & Matplotlib → visualization and storytelling
 
 
-
+<br><br>
 
 **🧠 Skills Demonstrated**
 
@@ -123,7 +122,7 @@ Statistical Analysis & Correlation Exploration
 Business Insight Communication in Healthcare Context
 
 
-
+<br><br>
 
 **📬 Contact**
 
