@@ -1,5 +1,7 @@
-🏥 Medical Insurance Cost Analysis (Python)
-📖 Project Overview
+## 🏥 Medical Insurance Cost Analysis (Python)
+
+
+**📖 Project Overview**
 
 This project focuses on exploratory data analysis (EDA) of a health insurance dataset with 1,300+ records.
 The goal was to uncover the demographic and lifestyle factors that most strongly influence medical charges,
