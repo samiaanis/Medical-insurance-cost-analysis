@@ -1,6 +1,8 @@
 ## 🏥 Medical Insurance Cost Analysis (Python)
 
 
+
+
 **📖 Project Overview**
 
 This project focuses on exploratory data analysis (EDA) of a health insurance dataset with 1,300+ records.
@@ -10,20 +12,32 @@ and to communicate these insights clearly through visualizations and analysis.
 By diving into this dataset, I practiced end-to-end data analytics skills — from cleaning and wrangling
 to statistical exploration and storytelling with data.
 
-🎯 Objective
+
+
+
+**🎯 Objective**
 
 To analyze health insurance data and answer the question:
 “What factors contribute the most to variation in medical insurance charges?”
 
-📁 Dataset
+
+
+
+**📁 Dataset**
 
 File: insurance.csv
 
-Domain: Healthcare Analytics
+
+
+
+**Domain: Healthcare Analytics**
 
 Records: 1,337 entries, 7 features
 
-Key Columns:
+
+
+
+**Key Columns:**
 
 age: Age of policyholder
 
@@ -39,7 +53,10 @@ region: Residential region
 
 charges: Final medical insurance cost (target variable)
 
-🔍 Steps Performed
+
+
+
+**🔍 Steps Performed**
 1️⃣ Data Cleaning & Preparation
 
 ✔️ Checked and removed duplicates
@@ -61,6 +78,9 @@ Scatterplots → charges vs age, charges vs BMI
 
 Interpreted results and explained why patterns matter for insurers and healthcare providers.
 
+
+
+
 📊 Key Insights
 
 🚬 Smoking drives costs dramatically higher, making it the single most influential factor.
@@ -75,7 +95,10 @@ Interpreted results and explained why patterns matter for insurers and healthcar
 
 📈 Charges distribution is right-skewed, meaning a small number of policyholders face very high medical costs.
 
-🛠 Tools & Technologies
+
+
+
+**🛠 Tools & Technologies**
 
 Python (Jupyter Notebook)
 
@@ -83,9 +106,10 @@ Pandas & NumPy → data wrangling and exploration
 
 Seaborn & Matplotlib → visualization and storytelling
 
-(Optional) SciPy → statistical testing for deeper validation
 
-🧠 Skills Demonstrated
+
+
+**🧠 Skills Demonstrated**
 
 Data Wrangling & Cleaning
 
@@ -97,9 +121,7 @@ Statistical Analysis & Correlation Exploration
 
 Business Insight Communication in Healthcare Context
 
-📸 Example Visuals
 
-(Here you can add screenshots of your histograms, scatterplots, or heatmap for instant impact — GitHub renders them nicely if you upload images to the repo and link them.)
 
 
 ## 📬 Contact  
