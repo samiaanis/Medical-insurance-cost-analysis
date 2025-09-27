@@ -1,5 +1,5 @@
 ## 🏥 Medical Insurance Cost Analysis (Python)
-
+  
 
 
 
@@ -57,6 +57,7 @@ charges: Final medical insurance cost (target variable)
 
 
 **🔍 Steps Performed**
+
 1️⃣ Data Cleaning & Preparation
 
 ✔️ Checked and removed duplicates
@@ -81,7 +82,7 @@ Interpreted results and explained why patterns matter for insurers and healthcar
 
 
 
-📊 Key Insights
+**📊 Key Insights**
 
 🚬 Smoking drives costs dramatically higher, making it the single most influential factor.
 
@@ -124,10 +125,12 @@ Business Insight Communication in Healthcare Context
 
 
 
-## 📬 Contact  
+**📬 Contact**
 
 👩‍💻 Author: Samia Anis
+
 [![Email](https://img.shields.io/badge/Email-samia.anis01%40gmail.com-red)](mailto:samia.anis01@gmail.com)  
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Samia%20Anis-blue?logo=linkedin)](https://www.linkedin.com/in/samia-anis-232b40368/)
 
 
