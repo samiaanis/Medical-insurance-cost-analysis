@@ -1,100 +1,106 @@
-# 🏥 Medical Insurance Cost Analysis & Prediction (Python)
+🏥 Medical Insurance Cost Analysis (Python)
+📝 Project Overview
 
-## 📝 Project Overview
+This project performs an exploratory data analysis (EDA) of a health insurance dataset to identify the demographic and lifestyle factors most strongly associated with higher medical charges. The goal is to surface clear, decision-ready insights for stakeholders (e.g., insurers, care managers, policy teams).
 
-This project involves performing **exploratory data analysis (EDA)** and building a **predictive model** to estimate medical insurance costs based on various personal and health-related factors. It is aimed at helping an insurance agency better understand what drives premium variations and make data-informed business decisions.
+📁 Dataset
 
----
+File: insurance.csv (analyzed in insurance.ipynb)
+Domain: Healthcare
+Source: Simulated insurance dataset
 
-## 📁 Dataset
+Key Features
 
-**File**: `insurance.ipynb`  
-**Domain**: Healthcare  
-**Source**: Simulated insurance dataset  
-**Key Features:**
+Feature	Description
+age	Age of the policyholder
+sex	Gender of the policyholder
+bmi	Body Mass Index (body composition proxy)
+children	Number of dependents covered
+smoker	Smoker status
+region	Residential region
+charges	Final insurance cost (analysis target)
+🎯 Objective
 
-| Feature       | Description                                                  |
-|---------------|--------------------------------------------------------------|
-| age           | Age of the policyholder                                      |
-| sex           | Gender of the policyholder                                   |
-| bmi           | Body Mass Index (used to assess body type)                   |
-| children      | Number of children covered by health insurance               |
-| smoker        | Whether the policyholder is a smoker                         |
-| region        | Residential region of the policyholder                       |
-| charges       | Final insurance cost (target variable)                       |
+To analyze factors influencing medical insurance charges, focusing on demographic (age, sex, children), lifestyle (smoking, BMI), and regional patterns—without building predictive models.
 
----
+🛠 Tools & Technologies
 
-## 🎯 Objective
+Python (Jupyter Notebook)
 
-To understand and predict how various demographic and lifestyle factors affect the **cost of medical insurance**. This includes:
-- Analyzing the **impact of body type (BMI)** and **lifestyle (smoking)**
-- Evaluating how **region and family status** influence premiums
-- Creating a **regression model** to predict `charges` based on input features
+Pandas, NumPy
 
----
+Matplotlib, Seaborn
 
-## 🛠 Tools & Technologies
+(Optional) SciPy/StatsModels for simple statistical tests
 
-- Python
-- Jupyter Notebook
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn (for regression modeling)
-- Plotly (optional for interactive visuals)
+✅ What’s Included
 
----
+Data Quality & Preparation
 
-## ✅ Key Tasks Performed
+Shape, dtypes, duplicate removal, and null checks
 
-1. **Exploratory Data Analysis (EDA)**
-   - Univariate & bivariate analysis of features
-   - Visualizations: Histograms, Boxplots, Pairplots, Heatmaps
-   - Correlation analysis
+Basic formatting (e.g., float display) and sanity checks
 
-2. **Business Insights**
-   - **Smokers pay significantly higher premiums**
-   - **Higher BMI leads to increased cost**
-   - **Certain regions show higher average charges**
-   - **Family size affects cost, but to a lesser extent**
+Univariate Analysis
 
-3. **Model Building**
-   - Built a **Linear Regression** model
-   - Preprocessing: Label Encoding, Feature Scaling
-   - Evaluated model performance using metrics like RMSE and R²
+Distributions for age, bmi, charges, children
 
----
+Identification of skew/outliers (right-skew in charges)
 
-## 📈 Key Insights
+Bivariate Analysis (Charges vs. …)
 
-- Smokers, on average, incur **much higher medical insurance charges**
-- Higher **BMI** correlates with increased cost — especially for smokers
-- The **southeast region** shows notably high charges compared to others
-- The **age** and **number of children** show moderate effects on premiums
+Smoking: substantially higher charges among smokers
 
----
+Age & BMI: positive relationships with charges
 
-## 📌 How to Run the Notebook
+Sex, Region, Children: minimal or small effects overall
 
-1. Open `insurance.ipynb` using **Jupyter Notebook** or **VS Code**  
-2. Make sure you have the required libraries installed:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+Correlation heatmap for numeric features (age, bmi, charges)
 
----
+Insights & Takeaways
 
-## 🧠 Skills Demonstrated
+Smoking status emerges as the dominant cost driver
 
-- Data Cleaning & EDA
-- Data Visualization
-- Feature Engineering
-- Predictive Modeling (Linear Regression)
-- Business Insight Generation
+Charges increase with age and BMI
 
----
+Gender, region, and number of children show limited impact compared to smoking/age/BMI
 
-## 📬 Contact
+Heavy-tailed (right-skewed) charges distribution highlights a small group of very high-cost cases
 
-**Created by:** Samia Anis  
-📧 samia.anis01@gmail.com  
-🌍 Birmingham, UK
+📈 Key Insights (Highlights)
+
+Smoking is the most influential factor associated with higher medical charges.
+
+Age and BMI show clear positive associations with costs.
+
+Gender, region, and children have comparatively minor effects.
+
+Charges are right-skewed, indicating outliers/high-cost cases that merit special attention in strategy and risk management.
+
+▶️ How to Run
+
+Clone the repo and open insurance.ipynb in Jupyter or VS Code.
+
+Install dependencies:
+
+pip install pandas numpy matplotlib seaborn
+
+
+Run the notebook cells in order.
+
+🧠 Skills Demonstrated
+
+Python (Pandas, NumPy)
+
+Data Cleaning & Wrangling
+
+Exploratory Data Analysis (EDA)
+
+Data Visualization (histograms, bar charts, scatter plots, heatmaps)
+
+Insight Communication for non-technical stakeholders
+
+📬 Contact
+
+Created by: Samia Anis
+📧 samia.anis01@gmail.com
