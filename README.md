@@ -1,106 +1,110 @@
 🏥 Medical Insurance Cost Analysis (Python)
-📝 Project Overview
+📖 Project Overview
 
-This project performs an exploratory data analysis (EDA) of a health insurance dataset to identify the demographic and lifestyle factors most strongly associated with higher medical charges. The goal is to surface clear, decision-ready insights for stakeholders (e.g., insurers, care managers, policy teams).
+This project focuses on exploratory data analysis (EDA) of a health insurance dataset with 1,300+ records.
+The goal was to uncover the demographic and lifestyle factors that most strongly influence medical charges,
+and to communicate these insights clearly through visualizations and analysis.
+
+By diving into this dataset, I practiced end-to-end data analytics skills — from cleaning and wrangling
+to statistical exploration and storytelling with data.
+
+🎯 Objective
+
+To analyze health insurance data and answer the question:
+“What factors contribute the most to variation in medical insurance charges?”
 
 📁 Dataset
 
-File: insurance.csv (analyzed in insurance.ipynb)
-Domain: Healthcare
-Source: Simulated insurance dataset
+File: insurance.csv
 
-Key Features
+Domain: Healthcare Analytics
 
-Feature	Description
-age	Age of the policyholder
-sex	Gender of the policyholder
-bmi	Body Mass Index (body composition proxy)
-children	Number of dependents covered
-smoker	Smoker status
-region	Residential region
-charges	Final insurance cost (analysis target)
-🎯 Objective
+Records: 1,337 entries, 7 features
 
-To analyze factors influencing medical insurance charges, focusing on demographic (age, sex, children), lifestyle (smoking, BMI), and regional patterns—without building predictive models.
+Key Columns:
+
+age: Age of policyholder
+
+sex: Gender of policyholder
+
+bmi: Body Mass Index
+
+children: Number of dependents
+
+smoker: Smoker/non-smoker
+
+region: Residential region
+
+charges: Final medical insurance cost (target variable)
+
+🔍 Steps Performed
+1️⃣ Data Cleaning & Preparation
+
+✔️ Checked and removed duplicates
+✔️ Verified datatypes
+✔️ Confirmed no missing values
+✔️ Reformatted floats for consistency
+
+2️⃣ Exploratory Data Analysis
+
+Univariate Analysis → histograms for age, BMI, charges, children
+
+Bivariate Analysis → charges vs smoker, sex, region, children
+
+Correlation Heatmap → relationships between age, BMI, charges
+
+Scatterplots → charges vs age, charges vs BMI
+
+3️⃣ Insight Generation
+
+Interpreted results and explained why patterns matter for insurers and healthcare providers.
+
+📊 Key Insights
+
+🚬 Smoking drives costs dramatically higher, making it the single most influential factor.
+
+👵 Age shows a positive relationship with charges, with a sharp rise after 40.
+
+⚖️ BMI is correlated with higher charges, especially among smokers, underlining obesity-related risks.
+
+🌍 Region and gender had little effect on charges overall.
+
+👨‍👩‍👧 Number of children also showed minimal impact compared to adult health factors.
+
+📈 Charges distribution is right-skewed, meaning a small number of policyholders face very high medical costs.
 
 🛠 Tools & Technologies
 
 Python (Jupyter Notebook)
 
-Pandas, NumPy
+Pandas & NumPy → data wrangling and exploration
 
-Matplotlib, Seaborn
+Seaborn & Matplotlib → visualization and storytelling
 
-(Optional) SciPy/StatsModels for simple statistical tests
-
-✅ What’s Included
-
-Data Quality & Preparation
-
-Shape, dtypes, duplicate removal, and null checks
-
-Basic formatting (e.g., float display) and sanity checks
-
-Univariate Analysis
-
-Distributions for age, bmi, charges, children
-
-Identification of skew/outliers (right-skew in charges)
-
-Bivariate Analysis (Charges vs. …)
-
-Smoking: substantially higher charges among smokers
-
-Age & BMI: positive relationships with charges
-
-Sex, Region, Children: minimal or small effects overall
-
-Correlation heatmap for numeric features (age, bmi, charges)
-
-Insights & Takeaways
-
-Smoking status emerges as the dominant cost driver
-
-Charges increase with age and BMI
-
-Gender, region, and number of children show limited impact compared to smoking/age/BMI
-
-Heavy-tailed (right-skewed) charges distribution highlights a small group of very high-cost cases
-
-📈 Key Insights (Highlights)
-
-Smoking is the most influential factor associated with higher medical charges.
-
-Age and BMI show clear positive associations with costs.
-
-Gender, region, and children have comparatively minor effects.
-
-Charges are right-skewed, indicating outliers/high-cost cases that merit special attention in strategy and risk management.
-
-▶️ How to Run
-
-Clone the repo and open insurance.ipynb in Jupyter or VS Code.
-
-Install dependencies:
-
-pip install pandas numpy matplotlib seaborn
-
-
-Run the notebook cells in order.
+(Optional) SciPy → statistical testing for deeper validation
 
 🧠 Skills Demonstrated
 
-Python (Pandas, NumPy)
-
-Data Cleaning & Wrangling
+Data Wrangling & Cleaning
 
 Exploratory Data Analysis (EDA)
 
-Data Visualization (histograms, bar charts, scatter plots, heatmaps)
+Data Visualization & Storytelling
 
-Insight Communication for non-technical stakeholders
+Statistical Analysis & Correlation Exploration
 
-📬 Contact
+Business Insight Communication in Healthcare Context
 
-Created by: Samia Anis
-📧 samia.anis01@gmail.com
+📸 Example Visuals
+
+(Here you can add screenshots of your histograms, scatterplots, or heatmap for instant impact — GitHub renders them nicely if you upload images to the repo and link them.)
+
+
+## 📬 Contact  
+
+👩‍💻 Author: Samia Anis
+[![Email](https://img.shields.io/badge/Email-samia.anis01%40gmail.com-red)](mailto:samia.anis01@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Samia%20Anis-blue?logo=linkedin)](https://www.linkedin.com/in/samia-anis-232b40368/)
+
+
+✨ This project reflects my ability to move beyond just coding — towards uncovering meaningful insights from data and presenting them in a clear, professional way.
